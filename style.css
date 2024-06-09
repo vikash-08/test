@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(192, 62, 62); */
+}
+
+body{
+    /* background-color: #291a1a; */
+    font-family: "Poppins", sans-serif;
+    background-color: #a28089;
+
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: #e5eaf5;
+    border: 10px solid black;
+}
+
+.top {
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-img {
+    height: 100%;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.top-img>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+
+}
+
+.top-description {
+    width: 40%;
+    align-content: flex-end;
+}
+
+.td-name {
+    font-size: 25px;
+    font-weight: 900;
+
+}
+
+.date {
+    margin-left: 70%;
+    font-weight: 600;
+}
+
+.biography {
+    width: 80%;
+    padding: 20px;
+    margin: 10% 10% 0% 10%;
+}
+
+.heading{
+    font-size: 40px;
+    border-bottom: 2px solid rgb(192, 59, 59);
+}
+
+.history .para {
+    margin-top: 10px;
+
+}
+
+.achievements{
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.achievements > ul > li{
+    list-style: none;
+   margin-top: 5px;
+}
+
+
+footer{
+text-align: right;
+}
